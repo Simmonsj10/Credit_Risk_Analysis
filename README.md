@@ -7,8 +7,6 @@ Using credit card data from LendingClub, I have applied different sampling techn
 ## Results
 Below is an analysis of all six modeling approaches based on balanced accuracy score, the precision, and the recall scores.
 
-From the confusion matrix results, the precision for the the bad loan applications is low, indicating a large number of false positives, which indicates an unreliable positive classification. The recall is also low for the bad loan applications, which is indicative of a large number of false negatives. The F1 score is also low (33).
-
 #### Naive Random Oversampling Results
 * Balanced Accuracy Score: 63.8%
 * Precision: 0.01 for high risk, which is very low and indicates a lot of unreliable false positives. The model produced a 1.0 for low risk groups, which is very high.
