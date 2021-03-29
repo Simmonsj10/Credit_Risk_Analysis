@@ -48,6 +48,7 @@ Below is an analysis of all six modeling approaches based on balanced accuracy s
 ![Images/CRE_M5_BALANCED_RFC.png](Images/CRE_M5_BALANCED_RFC.png)
 
 * The feature importance data below shows that the Balanced Random Forest Classifier model had a five standout features (importance > 0.05), and many features with an importance rating below 0.02. It's important to note that there were 95 features utilitized by the model.
+
 ![Images/CRE_M5_BALANCED_RFC_FEAT_IMPORTANCE.png](Images/CRE_M5_BALANCED_RFC_FEAT_IMPORTANCE.png)
 
 #### Easy Ensemble AdaBoost Classifier Results
