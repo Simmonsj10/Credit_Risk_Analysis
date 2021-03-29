@@ -45,10 +45,10 @@ Below is an analysis of all six modeling approaches based on balanced accuracy s
 * Recall: 0.70 for high risk and 0.87 for low risk, which indicates few False Negatives. With an average recall of 0.87, this model is much better than all other models.
 * Overall: The Balanced Random Forest Classifier is the best performing model yet insofar as predicting results accurately and minimizing false negatives with a high recall. In terms of precision, the model is generally on par with the other models.
 
-![Images/CRR_M5_BALANCED_RFC.png](Images/CRR_M5_BALANCED_RFC.png)
+![Images/CRE_M5_BALANCED_RFC.png](Images/CRE_M5_BALANCED_RFC.png)
 
 * The feature importance data below shows that the Balanced Random Forest Classifier model had a five standout features (importance > 0.05), and many features with an importance rating below 0.02. It's important to note that there were 95 features utilitized by the model.
-![Images/CRR_M5_BALANCED_RFC_FEAT_IMPORTANCE.png](Images/CRR_M5_BALANCED_RFC_FEAT_IMPORTANCE.png)
+![Images/CRE_M5_BALANCED_RFC_FEAT_IMPORTANCE.png](Images/CRE_M5_BALANCED_RFC_FEAT_IMPORTANCE.png)
 
 #### Easy Ensemble AdaBoost Classifier Results
 * Balanced Accuracy Score: 93.1% is a significant improvement over all of the models and our best performing model.
@@ -56,7 +56,7 @@ Below is an analysis of all six modeling approaches based on balanced accuracy s
 * Recall: 0.92 for high risk and 0.94 for low risk, which indicates very few False Negatives. With an average recall of 0.94, this model is our highest performing model.
 * Overall: The Easy Ensemble Classifier is the best performing model insofar as predicting results accurately and minimizing false negatives with a high recall. In terms of precision, the model is generally on par with the other models.
 
-![Images/CRR_M6_EEC.png](Images/CRR_M6_EEC.png)
+![Images/CRE_M6_EEC.png](Images/CRE_M6_EEC.png)
 
 
 
